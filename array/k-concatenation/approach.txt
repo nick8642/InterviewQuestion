@@ -1,0 +1,12 @@
+Question -: https://www.codechef.com/JAN18/problems/KCON/
+
+Soln -:
+
+for k==1 use simply kadane algrithm
+
+
+if k>1 append array to itself and fin maxsum using kadane
+
+    if sum of array is positive -: ans = maxsum + sum*(k-2)
+
+    else -: ans = maxsum  
