@@ -1,0 +1,4 @@
+-> generate a key for every word
+-> key = string of size 26 represent characters came in the word
+-> create a map with id = key and value = index of words with that key 
+-> print the map
